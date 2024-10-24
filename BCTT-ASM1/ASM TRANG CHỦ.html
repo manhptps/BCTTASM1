@@ -1,0 +1,220 @@
+<div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+        <li
+            data-bs-target="#carouselId"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="First slide"
+        ></li>
+        <li
+            data-bs-target="#carouselId"
+            data-bs-slide-to="1"
+            aria-label="Second slide"
+        ></li>
+        <li
+            data-bs-target="#carouselId"
+            data-bs-slide-to="2"
+            aria-label="Third slide"
+        ></li>
+    </ol>
+    <div class="carousel-inner text-center" role="listbox" style="background-color: lightgrey; height: 550px ;">
+        <div class="carousel-item active">
+            <img src="images/asm/slide1.webp" class="w-100d-block" alt="First slide"/>
+            
+        </div>
+        <div class="carousel-item">
+            <img src="images/asm/slide2.webp" class="w-100d-block" alt="Second slide" />
+            
+        </div>
+        <div class="carousel-item">
+            <img src="images/asm/slide3.webp" class="w-100d-block" alt="Third slide" />
+            
+        </div>
+    </div>
+    <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselId"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselId"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+</header>
+          
+<div class="row">
+    <article class="col-sm-12" style="margin-top: 30px;margin-bottom: 30px;">
+        <div class="row ">
+            <div class="col-sm-4" ng-repeat = "sp in products |limitTo : 3: 0" >
+                <div class="card text-center">                        
+                    <div class="card-body">
+                        <a href=""><img src="{{sp.img}}" alt="" width="220px" height="280px"></a>
+                    </div>
+                    <p class="tensp">{{sp.name}}</p>
+                    <div class="card-footer" style="font-weight: bold;">{{sp.price_after}} </div>
+                    <a class="mua" href="" ><p>MUA NGAY</p></a>
+                    <a class="them" href=""ng-click ="addToCart(sp.id)"><p>Thêm vào giỏ hàng</p></a>
+                </div>
+            </div>
+        </div>
+        
+        </div>
+        <a href="#!danhmuc">
+            <button type="button" class="xemthem">XEM THÊM SẢN PHẨM </button></a>
+        
+    </article>
+    <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li
+                data-bs-target="#carouselId"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="First slide"
+            ></li>
+            <li
+                data-bs-target="#carouselId"
+                data-bs-slide-to="1"
+                aria-label="Second slide"
+            ></li>
+            <li
+                data-bs-target="#carouselId"
+                data-bs-slide-to="2"
+                aria-label="Third slide"
+            ></li>
+        </ol>
+        <div class="carousel-inner text-center" role="listbox" style="background-color: lightgrey; height: 550px ;">
+            <div class="carousel-item active">
+                <img src="images/asm/slide4.webp" class="w-100d-block" alt="First slide"/>
+                
+            </div>
+            <div class="carousel-item">
+                <img src="images/asm/slide5.webp" class="w-100d-block" alt="Second slide" />
+                
+            </div>
+            <div class="carousel-item">
+                <img src="images/asm/slider6.webp" class="w-100d-block" alt="Third slide" />
+                
+            </div>
+        </div>
+        <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselId"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselId"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+</div>
+<section>
+   <div class="row" style="margin-top: 50px; margin-bottom: 50px;">
+    <h4 class="text-center" style="font-size: 30px; font-weight: bolder; margin-bottom: 20px;">TIN TỨC</h4>
+    <hr style="border-color: black;">
+    <div class="col-6">
+        <!-- sp1 -->
+        <div class="row">
+            <div class="col-6"><img src="images/asm/tintuc1.webp" alt="" style="height: 200px; width: 250px; "></div>
+            <div class="col-6">
+                <h4 style="font-weight: bold;">RIPPLESH JELLY BALM</h4>
+                <p style="font-size: small; margin-top: 30px;">Bộ sưu tập son dưỡng đầu tiên của Black Rouge - Ripplesh Jelly Balm chính thức chào sân với những ưu điểm tuyệt vời. 
+                    Tông màu xanh pastel chủ đạo kèm theo chất son bóng mượt...
+                    <a href="ASM TRANG TIN TỨC.html"><button type="button" style="border: 10px; background-color: white;font-weight: bolder;">XEM THÊM</button></a>
+                </p>
+                
+            </div>
+        </div>
+    </div>
+    <!-- sp2 -->
+    <div class="col-6" >
+        <div class="row">
+            <div class="col-6"><img src="images/asm/tintuc3.webp" alt="" style="height: 200px; width: 250px;"></div>
+            <div class="col-6">
+                <h4 style="font-weight: bold;">BLACK ROUGE TRỞ LẠI - ĐÁNH TAN CÁI NÓNG MÙA HÈ VỚI HALF N HALF TINTED WATER</h4>
+                <p style="font-size: small; margin-top: 20px;">Black Rouge trở lại đánh tan cái “nóng” mùa hè với Half N Half Tinted Water cùng chủ đề “candy shop” vừa đáng yêu, vừa hiện đại.
+                     BST son được ra mắt độc quyền tại thị trường Việt Nam.... 
+                    <a href="ASM TRANG TIN TỨC.html"><button type="button" style="border: 10px; background-color: white;font-weight: bolder;">XEM THÊM</button></a></p>
+                     
+            </div>
+        </div>
+    </div>
+    <!-- sp3 -->
+    <div class="col-6">
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-6"><img src="images/asm/tintuc2.webp" alt="" style="height: 200px; width: 250px;"></div>
+            <div class="col-6">
+                <h4 style="font-weight: bold;">[HOT] KHUẤY ĐỘNG MÙA TỰU TRƯỜNG CÙNG MUDDISH CUSHION VELVET</h4>
+                <p style="font-size: small; margin-top: 30px;">Khuấy động mùa tựu trường cùng Mudddish Cushion Velvet- BST son hoàn toàn mới của nhà Blackrouge. 
+                    Chất son cushion độc đáo, mới lạ kết hợp cùng thiết kế tông nude sang chảnh... 
+                    <button type="button" style="border: 10px; background-color: white; font-weight: bolder;">XEM THÊM</button></p>
+                    
+            </div>
+        </div>
+    </div>
+    <!-- sp4 -->
+    <div class="col-6">
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-6"><img src="images/asm/tintuc4.webp" alt="" style="height: 200px; width: 250px;"></div>
+            <div class="col-6">
+                <h4  style="font-weight: bold;">SỰ TRỞ LẠI HOÀNH TRÁNG CỦA DOUBLE LAYER OVER VELVET 2 - GALLERY</h4>
+                <p style="font-size: small; margin-top: 30px;">BST Double Layer Over Velvet 2 - Gallery với thiết kế đơn sắc cùng điểm nhấn ánh tím khói thể hiện sự tinh tế,
+                     hiện đại và đầy cá tính, hệt như một tác phẩm nghệ thuật...
+                     <button type="button" style="border: 10px; background-color: white;font-weight: bolder;">XEM THÊM</button></p>
+                    
+            </div>
+        </div>
+    </div>
+   </div>
+</section>
+
+
+<div class="row" style="margin-top: 30px; margin-bottom: 20px;">
+    <div class="col-sm-3 text-center">
+        <a class="thongtin" href="">
+            <img src="images/asm/hotline.webp" alt="" style="height: 35px;">
+            <h2 style="font-size: medium; margin-top: 10px;">HOTLINE HỖ TRỢ</h2>
+            <h3>092874902</h3>
+        </a>
+    </div>
+    <div class="col-sm-3 text-center">
+        <a class="thongtin" href="">
+            <img src="images/asm/vanchuyen.webp" alt="" style="height: 40px;">
+            <h2 style="font-size: medium; margin-top: 5px;">MIỄN PHÍ VẬN CHUYỂN</h2>
+            <h3>Cho đơn hàng từ 500k</h3>
+        </a>
+    </div>
+    <div class="col-sm-3 text-center">
+        <a class="thongtin" href="">
+            <img src="images/asm/doitra.webp" alt="" style="height: 30px;" >
+            <h2 style="font-size: medium; margin-top: 10px;">MIỄN PHÍ ĐỔI TRẢ</h2>
+            <h3>Trong vòng 30 ngày</h3>
+        </a>
+    </div>
+    <div class="col-sm-3 text-center">
+        <a class="thongtin" href="">
+            <img src="images/asm/thanhtoan.webp" alt="" style="height: 35px;">
+            <h2 style="font-size: medium; margin-top: 5px;">THANH TOÁN BẢO MẬT</h2>
+            <h3>Chúng tôi chấp nhận các loại thẻ</h3>
+        </a>
+    </div>
+   </div>
+</div>
+

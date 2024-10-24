@@ -1,0 +1,174 @@
+header{
+    position: relative;
+}
+.shopping-mall{
+    position: relative;
+    top: 65px;
+    left: 10px;
+    font-variant: small-caps;
+}
+.shopping-mall h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    color: brown;
+    letter-spacing: 0.3px;
+    padding-bottom: 0px;
+    
+    margin: 0;
+}
+.shopping-mall h5{
+    margin-top: 5px;
+    letter-spacing: 0.5px;
+}
+.poly-cart{
+    margin-top: 5px;
+}
+.poly-cart ul{
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 10px;
+}
+.poly-cart img{
+    margin-left: 15px ;
+}
+.poly-cart input{
+    margin-left: 15px;
+    width: 260px;
+}
+.form-control{
+    font-size: 13px;
+}
+.w-100d-block{
+    height: 150pxs;
+    width: 300px;
+}
+.jumbotron{
+    background-color: lightgray;
+     height: 200px;
+     
+     margin: -2px;
+     margin-bottom: 5px;
+     padding: 5px;
+}
+
+.w-100d-block{
+    height: 550px;
+    width: 1320px;
+}
+
+.logo{
+    background-color: blue;
+}
+.footer{
+    height: 350px;
+    background-color: #79403c;
+    color: white;
+    
+}
+.footer-title{
+    font-size: large;
+    font-weight: bold;
+}
+
+.thongtin:hover{
+    text-decoration: none;
+}
+.thongtin h2, .thongtin h3{
+    color:black;
+}
+.mua{
+    color:rgb(123, 10, 10); 
+    margin-top: 5px;
+    font-weight: bolder;
+    font-size: medium;
+    
+}
+.tensp{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight:bold;
+}
+.mua:hover{
+    text-decoration: none;
+    margin-top: 10px;
+    color: red;
+}
+.them{
+    color:black;
+}
+.them:hover{
+    text-decoration: none;
+}
+
+.menu li a{
+color:white;
+}
+.muahang{
+    height: 40px;
+    width: 200px;
+    background-color: #fff;
+}
+.themvaogio{
+    height: 40px;
+    width: 200px;
+    background-color: #040404;
+    color: white;
+}
+.shopee{
+   margin-top: 10px;
+   height: 50px;
+   width: 405px;
+   background-color: rgb(123, 10, 10);
+   color: #fff;
+   font-weight: bolder;
+}
+.luu{
+    height: 40px;
+    width: 100px;
+    background-color: #fff;
+}
+.huy{
+    height: 40px;
+    width: 100px;
+    background-color: #fff; 
+}
+.tieudesp{
+    font-size: 
+    large; padding: 10px; 
+    text-align: center; 
+    margin-right: 50px;
+     font-weight: bold;
+     color: #040404;
+}
+.tieudesp:hover{
+    text-decoration: none;
+    color: #79403c;
+
+}
+.giatien{
+    font-weight: bolder;
+    font-size: medium;
+   
+    display: inline;
+    margin-left: 50px;
+    
+}
+.giamgia{
+    text-decoration: line-through;
+   
+    display: inline;
+    
+}
+.xemthem{
+    margin-left: 550px;
+     margin-top: 20px;
+     height: 60px ;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #fff;
+}
+.xemthem:hover{
+    background-color: #79403c;
+    color: #fff;
+    font-weight: bolder;
+}

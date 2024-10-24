@@ -1,0 +1,51 @@
+<div class="row" style="margin-left: 50px;">
+    <article class="col-sm-12" style="margin-top: 100px;margin-bottom: 100px;" >
+         <div class="row" >
+            <div class="col-sm-3" style="margin-bottom: 50px;" ng-repeat ="sp in products"> 
+                <a href="#!/ASM TRANG CHI TIẾT/combo/{{sp.id}}">
+                <img class="img-thumbnail" src="{{sp.img}}" style="width: 280px;">
+                <p class="tieudesp">
+                    {{sp.name}}  </p></a>
+                    <p class="giatien" >{{sp.price_after}} </p>
+                    <p class="giamgia"> {{sp.price}} <span class="badge text-bg-danger">{{sp.sale}}</span></p>
+                    <button class="btn" ng-click = 'addToCart(sp.id)' >Thêm vào giỏ</button>
+            </div>
+            
+         </div>
+        
+    </article>
+   
+</div>
+
+
+
+<div class="row" style="margin-top: 30px; margin-bottom: 20px;">
+    <div class="col-sm-3 text-center">
+        <a class="thongtin" href="">
+            <img src="images/asm/hotline.webp" alt="" style="height: 35px;">
+            <h2 style="font-size: medium; margin-top: 10px;">HOTLINE HỖ TRỢ</h2>
+            <h3>092874902</h3>
+        </a>
+    </div>
+    <div class="col-sm-3 text-center">
+        <a class="thongtin" href="">
+            <img src="images/asm/vanchuyen.webp" alt="" style="height: 40px;">
+            <h2 style="font-size: medium; margin-top: 5px;">MIỄN PHÍ VẬN CHUYỂN</h2>
+            <h3>Cho đơn hàng từ 500k</h3>
+        </a>
+    </div>
+    <div class="col-sm-3 text-center">
+        <a class="thongtin" href="">
+            <img src="images/asm/doitra.webp" alt="" style="height: 30px;" >
+            <h2 style="font-size: medium; margin-top: 10px;">MIỄN PHÍ ĐỔI TRẢ</h2>
+            <h3>Trong vòng 30 ngày</h3>
+        </a>
+    </div>
+    <div class="col-sm-3 text-center">
+        <a class="thongtin" href="">
+            <img src="images/asm/thanhtoan.webp" alt="" style="height: 35px;">
+            <h2 style="font-size: medium; margin-top: 5px;">THANH TOÁN BẢO MẬT</h2>
+            <h3>Chúng tôi chấp nhận các loại thẻ</h3>
+        </a>
+    </div>
+   </div>

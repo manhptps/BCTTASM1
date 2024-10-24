@@ -1,0 +1,121 @@
+[
+    {
+        "id" : "1",
+        "name": "Son kem Black Rouge Double Layer Over Velvet",
+        "img":"images/asm/sp1.webp",
+        "price": "318.000",
+        "sale":"25%",
+        "price_after":"238.500"
+
+    },
+    {
+        "id" : "2",
+        "name": "Son Kem Black Rouge Muddish Cushion Velvet",
+        "img":"images/asm/sp2.webp",
+        "price": "318.000",
+        "sale":"25%",
+        "price_after":"238.500"
+
+
+    },
+    {
+        "id" : "3",
+        "name": "Son kem Black Rouge Double Layer Over Velvet",
+        "img":"images/asm/sp3.webp",
+        "price": "318.000",
+        "sale":"25%",
+        "price_after":"238.500"
+
+
+    },
+    {
+        "id" : "4",
+        "name": "Son Kem Black Rouge Airfit Velvet Tint",
+        "img":"images/asm/sp4.png",
+        "price": "318.000",
+        "sale":"25%",
+        "price_after":"238.500"
+
+
+    },
+    {
+        "id" : "5",
+        "name": "Son kem Black Rouge Double Layer Over Velvet SS1",
+        "img":"images/asm/sp5.jpg",
+        "price": "318.000",
+        "sale":"25%",
+        "price_after":"238.500"
+
+
+    },
+    {
+        "id" : "6",
+        "name": "Son kem Black Rouge Air Fit Velvet Tint",
+        "img":"images/asm/sp6.jpg",
+        "price": "318.000",
+        "sale":"25%",
+        "price_after":"238.500"
+
+
+    },
+    {
+        "id" : "7",
+        "name": "Son kem Black Rouge Airfit Velvet Tint",
+        "img":"images/asm/sp7.jpg",
+        "price": "318.000",
+        "sale":"25%",
+        "price_after":"238.500"
+
+
+    },
+    {
+        "id" : "8",
+        "name": "Son kem Black Rouge Airfit Velvet Tint V7",
+        "img":"images/asm/sp8.jpg",
+        "price": "318.000",
+        "sale":"25%",
+        "price_after":"238.500"
+
+
+    },
+    {
+        "id" : "9",
+        "name": "Son bóng Black Rouge Half N Half Water Glow ",
+        "img":"images/asm/sp9.jpg",
+        "price": "318.000",
+        "sale":"25%",
+        "price_after":"238.500"
+
+
+    },
+    {
+        "id" : "10",
+        "name": "Son thỏi Black Rouge Wearable Velvet Lipstick",
+        "img":"images/asm/sp10.webp",
+        "price": "318.000",
+        "sale":"25%",
+        "price_after":"238.500"
+
+
+    },
+    {
+        "id" : "11",
+        "name": "Son kem Black Rouge Airfit Velvet Tint Ver 8",
+        "img":"images/asm/sp11.webp",
+        "price": "318.000",
+        "sale":"25%",
+        "price_after":"238.500"
+
+
+    },
+    {
+        "id" : "12",
+        "name": "Son kem Black Rouge Double Layer Over Velvet",
+        "img":"images/asm/sp12.jpg",
+        "price": "318.000",
+        "sale":"25%",
+        "price_after":"238.500"
+
+
+    }
+]
