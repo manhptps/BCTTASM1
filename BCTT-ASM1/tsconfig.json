@@ -1,0 +1,72 @@
+// Định nghĩa giao diện cho sản phẩm trong giỏ hàng
+interface Product {
+    id: number;
+    name: string;
+    price: number;
+    quantity: number;
+}
+
+// Tạo controller cho giỏ hàng
+class CartController {
+    private cart: Product[] = [];
+
+    constructor() {
+        // Khởi tạo giỏ hàng với dữ liệu từ localStorage nếu có
+        const storedCart = localStorage.getItem('cart');
+        if (storedCart) {
+            this.cart = JSON.parse(storedCart);
+        }
+    }
+
+    // Thêm sản phẩm vào giỏ hàng
+    addProduct(product: Product): void {
+        const existingProduct = this.cart.find(item => item.id === product.id);
+        if (existingProduct) {
+            existingProduct.quantity += product.quantity;
+        } else {
+            this.cart.push(product);
+        }
+        this.saveCart();
+    }
+
+    // Xóa sản phẩm khỏi giỏ hàng
+    removeProduct(productId: number): void {
+        this.cart = this.cart.filter(product => product.id !== productId);
+        this.saveCart();
+    }
+
+    // Lấy tất cả sản phẩm trong giỏ hàng
+    getCart(): Product[] {
+        return this.cart;
+    }
+
+    // Tính tổng tiền của giỏ hàng
+    calculateTotal(): number {
+        return this.cart.reduce((total, product) => total + product.price * product.quantity, 0);
+    }
+
+    // Lưu giỏ hàng vào localStorage
+    private saveCart(): void {
+        localStorage.setItem('cart', JSON.stringify(this.cart));
+    }
+}
+
+// Khởi tạo đối tượng CartController và thêm vào AngularJS
+const cartController = new CartController();
+angular.module('myapp').controller('CartCtrl', function ($scope) {
+    $scope.cart = cartController.getCart();
+
+    $scope.addProductToCart = function (product: Product) {
+        cartController.addProduct(product);
+        $scope.cart = cartController.getCart();
+    };
+
+    $scope.removeProductFromCart = function (productId: number) {
+        cartController.removeProduct(productId);
+        $scope.cart = cartController.getCart();
+    };
+
+    $scope.totalAmount = function () {
+        return cartController.calculateTotal();
+    };
+});
